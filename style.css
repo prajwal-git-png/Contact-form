@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+  }
+  
+  body {
+    background-image: url('./project1.jpg');
+    /* background-image: url('./tutorial.png'); */
+    background-size: cover;
+    font-family: Poppins;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    max-height: 70vh;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    color: #FFF;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+  
+  h2{
+    text-align: center;
+    
+
+  }
+  .form-group {
+    margin: 20px auto; /* Center the form-group */
+    width: 100%; /* Take full width of the container */
+    max-width: 300px; /* Set maximum width for larger screens */
+  }
+  
+  .form-group label {
+    display: block;
+    text-align: start;
+    margin-bottom: 5px; /* Add margin bottom to separate labels from inputs */
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: Poppins;
+    font-weight: 450;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    width: 20%; /* Set width of the button */
+    padding: 8px; /* Adjust padding to fit content */
+    border-radius: 15px;
+    border: none;
+    background-color: #FF4081;
+    color: #FFF;
+        cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: -20px;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+  }
+
+  input[type="submit"]:hover {
+    background-color: #D50057;
+  }
+  
+  textarea {
+    resize: none;
+    height: 70px;
+    overflow: hidden;
+  }
+  
+  .form-group:hover input[type="text"],
+  .form-group:hover textarea {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  input[type="text"]::placeholder,
+  textarea::placeholder {
+    color: rgba(236, 216, 226, 0.342);
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .form-group:hover label {
+    color: #FF4081;
+  }
+  
